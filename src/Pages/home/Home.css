@@ -1,0 +1,9 @@
+main{
+    padding: 4rem;
+}
+h2{
+    text-align: center;
+    color: var(--Very-Dark-Blue);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
