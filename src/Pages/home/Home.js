@@ -7,6 +7,7 @@ import pingComingSoonPage from "../../img/Ping-coming-soon-page.png";
 import signUpForm from "../../img/sign-up-form.png";
 import whereIsThisIPFrom from "../../img/Where-is-this-ip-from.png";
 import "./Home.css"
+import AboutMe from "../../components/about-me/about-me";
 
 const Home = () =>{
     return(
@@ -33,14 +34,12 @@ const Home = () =>{
 
                     <Projects image={whereIsThisIPFrom} name="Where Is This IP From" 
                     code="https://github.com/juan26468818/deDondeEsEstaIP" web="https://idyllic-daifuku-d7f55c.netlify.app/"/>
-
-
-
                 </div>
                 <div class="see-more-container">
                     <a href="#" class="see-more">See More...</a>
                 </div>
             </section>
+            <AboutMe />
             </main>
         </div>
     )

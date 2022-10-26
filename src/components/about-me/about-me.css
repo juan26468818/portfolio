@@ -1,0 +1,23 @@
+.about-me-container{
+    display: flex;
+}
+.profile-pic{
+    width: 20rem;
+    border-radius: 50%;
+}
+.about-me-description{
+    font-size: 2rem;
+}
+.about-me-item{
+    list-style: none;
+    font-size: 2rem;
+}
+.about-me-item:nth-child(1), .about-me-item:nth-child(6){
+    margin-left: 1rem;
+}
+.about-me-item:nth-child(2), .about-me-item:nth-child(5){
+    margin-left: 2rem;
+}
+.about-me-item:nth-child(3), .about-me-item:nth-child(4){
+    margin-left: 3rem;
+}

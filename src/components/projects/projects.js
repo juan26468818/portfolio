@@ -4,7 +4,9 @@ const Projects = (props)=>{
 
     return(
         <div class="project-container">
-            <img src={props.image} alt={`An image of the web ${props.name}`} class="project-img" />
+            <picture className="project-img-container">
+                <img src={props.image} alt={`An image of the web ${props.name}`} class="project-img" />
+            </picture>
             <div class="project-description-container">
                 <h3>{props.name}</h3>
                 <p class="project-description">
